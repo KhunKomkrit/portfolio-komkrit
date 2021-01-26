@@ -9,7 +9,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <!-- <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script> -->
+        <script src="js/all.min.js" ></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
@@ -100,35 +100,35 @@
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-12 col-sm-4">
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/portfolio/mockup.png" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Game The Legend of kingdom</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary btn-block">about</a>
+                              <a href="#" class="btn btn-primary btn-block">See More</a>
                             </div>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-12 col-sm-4">
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/portfolio/mockup.png" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Game The Legend of kingdom</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary btn-block">about</a>
+                              <a href="#" class="btn btn-primary btn-block">See More</a>
                             </div>
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-12 col-sm-4">
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/portfolio/mockup.png" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Game The Legend of kingdom</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary btn-block">about</a>
+                              <a href="#" class="btn btn-primary btn-block">See More</a>
                             </div>
                         </div>
                     </div>  
@@ -148,16 +148,12 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col"></div>
+                    <div class="col-12"><p class="lead">Hi my name is komkrit nookhampan. I'm <span id="text-year-birthday"></span> years old. I graduated from Chiang Mai Rajabhat University in Computer Science in 2018. I started working in wictor company as a programmer. 
+                        about developing web applications. I worked for 2 years, then quit the job Come to study game and mobile development. Currently creating works continuously.</p></div>
+                    <div class="col"></div>
                 </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
-                </div>
+             
             </div>
         </section>
         <!-- Contact Section-->
@@ -217,29 +213,12 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-12">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
                             303/12 M00 2. Tambon Sanphakwan,Amphur Hangdong,
                             <br />
                             Chiang Mai,50230
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
                         </p>
                     </div>
                 </div>
@@ -469,5 +448,15 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+        <script>
+            var yearBirthday = 1993;
+            $(function(){
+                let objDate = new Date();
+                let yearNow = objDate.getFullYear();
+                let myAge   =  yearNow-yearBirthday;
+                $("#text-year-birthday").text(myAge);
+            });
+        </script>
     </body>
 </html>
