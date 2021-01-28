@@ -62,9 +62,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   background-color: aliceblue;
 }
 
-.max-width-150{
-  max-width: 150% !important;;
-}
+
 
 body {
   margin: 0;
@@ -4048,6 +4046,10 @@ input[type=button].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+
+  .max-width-150{
+    max-width: 100%;
+  }
 }
 @media (min-width: 576px) {
   .navbar-expand-sm {
@@ -4079,6 +4081,10 @@ input[type=button].btn-block {
   .navbar-expand-sm .navbar-toggler {
     display: none;
   }
+
+  .max-width-150{
+    max-width: 150% !important;
+  }
 }
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container,
@@ -4089,6 +4095,10 @@ input[type=button].btn-block {
 .navbar-expand-md > .container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .max-width-150{
+    max-width: 100%;
   }
 }
 @media (min-width: 768px) {
@@ -4121,6 +4131,10 @@ input[type=button].btn-block {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
+
+  .max-width-150{
+    max-width: 100%;
+  }
 }
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
@@ -4131,6 +4145,10 @@ input[type=button].btn-block {
 .navbar-expand-lg > .container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .max-width-150{
+    max-width: 100%;
   }
 }
 @media (min-width: 992px) {
