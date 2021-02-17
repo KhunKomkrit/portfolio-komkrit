@@ -59,7 +59,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .bg-content{
-  background-color: aliceblue;
+  background-color: #fbfbfb;
+    padding: 20px;
+    border: 0.3rem solid transparent;
+    border-color: #dee2e6 #dee2e6 #fff;
 }
 
 
@@ -169,10 +172,16 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
-a:hover {
+a.nav-item:hover {
   color: #117964;
-  text-decoration: underline;
+  text-decoration: none ;
+  background-color: #fbfbfb !important;
 }
+
+.img-bg{
+  background-size: contain; background-image: url('../assets/img/backgroup-article/pexels-picjumbocom-196645.jpg');
+}
+
 
 a:not([href]):not([class]) {
   color: inherit;
@@ -3901,7 +3910,7 @@ input[type=button].btn-block {
   margin-bottom: -0.125rem;
 }
 .nav-tabs .nav-link {
-  border: 0.125rem solid transparent;
+  border: 0.3rem solid transparent;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
@@ -3915,9 +3924,10 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #0e0e0e;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
+  font-weight: bold;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -0.125rem;

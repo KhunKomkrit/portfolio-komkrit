@@ -34,10 +34,11 @@
       
 
            <!-- Portfolio Section-->
-           <section class="page-section portfolio bg-white" id="portfolio">
+           <section class="page-section portfolio bg-white img-bg" id="portfolio">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="../../index.html">Back</a></li>
+                    <li class="breadcrumb-item"><span>Game Mobile</span> </li>
                   <li class="breadcrumb-item active" aria-current="page">Library</li>
                 </ol>
               </nav>
@@ -51,25 +52,70 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
-                <div class="container bg-content">
-                <!-- Contents --> 
 
-                <div class="row">
-                    <div class="col-12"><u><h1><i class="fa fa-images"></i> Preview</h1></u></div>
-                 </div>
-
-                 <div class="row form-group">
-                    <div class="col-12 col-sm-4 ">
-                        <img src="#" alt="..." class="img-thumbnail max-width-150 ">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">รายละเอียด</a>
+                      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-img" role="tab" aria-controls="nav-profile" aria-selected="false">ตัวอย่างรูปภาพ</a>
+                      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-video" role="tab" aria-controls="nav-contact" aria-selected="false">ตัวอย่างวิดีโอ</a>
                     </div>
-                    <div class="col-sm-2"></div>
-                    <div class="col-12 col-sm-4">
-                        <img src="#" alt="..." class="img-thumbnail max-width-150 ">
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane bg-content fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <h5><u>บทนำ</u></h5>
+                    
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ผลงานนี้เป็นเกมแนว ปลูกผัก รูปแบบ 3 มิติ ที่ให้ผู้เล่นสวมบทบาทเป็นชาวสวนบริหารทรัพยากรได้อย่างอิสระ 
+                            โดยสอดแทรกปรัชญาเศรษฐกิจพอเพียงลงไปในตัวเกมไปด้วย ผู้เล่นจะได้เรียนรู้ ทฤษฏีต่างๆมากมาย แล้วยังนำความรู้ที่ได้มาทำภารกิจให้สำเร็จ 
+                            เกมนี้ถือว่าเป็นเกมแรกในชีวิต เริ่มต้นจากไม่รู้อะไรเลย ใช้วิธีศึกษาข้อมูลจาก document,video ด้วยตนเองแทบทั้งสิ้น 
+                            ซึ่งก็ถือว่าเกมนี้เป็นความท้าทายอย่างมากในการพัฒนา แต่ด้วยความพยายามจึงสามารถทำมันให้สำเร็จในที่สุด
+                       </p>
+                       <h5><u>การออกแบบ</u></h5>
+                       <p>1.ออกแบบ เนื้อเรื่อง</p>
+                       <p>2.ออกแบบ Storyboard</p>
+                       <p>3.ออกแบบ Database</p>
+                       <p>4.ออกแบบ Class Diagram</p>
+ 
+                       <h5><u>เครื่องมือที่ใช้พัฒนา</u></h5>
+                       <p>1.Unity engine</p>
+                       <p>2.Blader 3D</p>
+                       <p>3.SketchUp 3D</p>
+                       <p>4.Visual studio</p>
+                       <p>5.Database MySqlite</p>
+                       <p>6.Navicat</p>
+                       <h5><u>ภาษาที่ใช้พัฒนา</u></h5>
+                       <p>1.C#</p>
+                    
+ 
+                     <br>
                     </div>
-                </div>
+                    <div class="tab-pane bg-content fade" id="nav-img" role="tabpanel" aria-labelledby="nav-profile-tab">
+                           <!-- Portfolio Grid Items-->
+                <div class="container ">
+                    <!-- Contents --> 
+    
+                    <div class="row">
+                        <div class="col-12"><u><h1><i class="fa fa-images"></i> Preview</h1></u></div>
+                     </div>
+    
+                     <div class="row form-group">
+                        <div class="col-12 col-sm-4 ">
+                            <img src="#" alt="..." class="img-thumbnail max-width-150 ">
+                        </div>
+                        <div class="col-sm-2"></div>
+                        <div class="col-12 col-sm-4">
+                            <img src="#" alt="..." class="img-thumbnail max-width-150 ">
+                        </div>
+                    </div>
+    
+                    </div>
+                    </div>
+                    <div class="tab-pane bg-content fade" id="nav-video" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <br><br><br>
 
-                </div>
+                        <br><br>
+                    </div>
+                  </div>
+             
             </div>
         </section>
     
