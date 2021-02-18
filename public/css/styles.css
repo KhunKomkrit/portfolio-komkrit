@@ -167,6 +167,10 @@ sup {
   top: -0.5em;
 }
 
+.height-50{
+  height: 500px !important;
+}
+
 a {
   color: #1abc9c;
   text-decoration: none;
