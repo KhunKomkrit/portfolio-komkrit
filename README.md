@@ -1,2 +1,2 @@
 # portfolio-komkrit
-  https://portfolio-komkrit.web.app/
+  https://khunkomkrit.github.io/portfolio-komkrit/
