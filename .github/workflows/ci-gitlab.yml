@@ -1,4 +1,4 @@
-name: My-Gitlab
+name: push-gitlab
 on: 
   push:
     branches:
